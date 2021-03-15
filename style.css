@@ -1,19 +1,28 @@
-*{
-    background-color: rgb(204, 52, 52);
+* {
+  background-color: rgb(204, 52, 52);
 }
 
 .container-fluid {
-    padding: 3% 15%;
-  }
+  padding: 3% 15%;
+}
 
-  .navbar {
-    padding: 0 0 4.5rem;
-  }
-  
-  .nav-item {
-    padding: 0px 18px;
-  }
-  
-  .nav-link {
-    font-size: 1.2rem;
-  }
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.my_photo {
+  max-height: 15em;
+}
+
+.about-me {
+  padding-top: 4.5rem;
+}
