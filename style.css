@@ -1,4 +1,4 @@
-* {
+body {
   background-color: rgb(204, 52, 52);
 }
 
@@ -9,6 +9,7 @@
 .navbar {
   padding-left: 0;
   padding-right: 0;
+  background-color: rgb(204, 52, 52);
 }
 
 .nav-item {
@@ -23,6 +24,22 @@
   max-height: 15em;
 }
 
-.about-me {
+.section {
   padding-top: 4.5rem;
+}
+
+.institute{
+    color: black;
+    font-weight:600;
+}
+
+.institute:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: black;
+}
+
+.icon{
+    max-height: 10em;
+    padding-top: 2rem;
 }
