@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(204, 52, 52);
+  background-color: rgb(17, 150, 228);
 }
 
 .container-fluid {
@@ -11,8 +11,8 @@ body {
 }
 
 .navbar {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 15%;
+  padding-right: 15%;
   background-color: rgb(204, 52, 52);
 }
 
@@ -21,7 +21,11 @@ body {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+.about-me{
+    background-color: rgb(8, 177, 73);
 }
 
 .my_photo {
@@ -44,7 +48,7 @@ body {
 }
 
 .icon {
-  max-height: 10em;
+  max-height: 8em;
   padding-top: 2rem;
 }
 
@@ -56,4 +60,8 @@ body {
   max-height: 5em;
   padding-top: 2rem;
   padding-right: 2rem;
+}
+
+.footer{
+    background-color: rgb(204, 52, 52);
 }
