@@ -1,6 +1,6 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: rgb(204, 52, 52);
@@ -32,23 +32,28 @@ body {
   padding-top: 4.5rem;
 }
 
-.institute{
-    color: black;
-    font-weight:600;
+.institute {
+  color: black;
+  font-weight: 600;
 }
 
-.institute:hover{
-    text-decoration: underline;
-    font-weight: bolder;
-    color: black;
+.institute:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: black;
 }
 
-.icon{
-    max-height: 10em;
-    padding-top: 2rem;
+.icon {
+  max-height: 10em;
+  padding-top: 2rem;
 }
 
-.social{
-    max-height: 5em;
-    padding-top: 2rem;
+.social-div {
+  margin-left: 0;
+}
+
+.social {
+  max-height: 5em;
+  padding-top: 2rem;
+  padding-right: 2rem;
 }
