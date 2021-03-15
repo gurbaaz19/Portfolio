@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(204, 52, 52);
+}
+
+.container-fluid {
+    padding: 3% 15%;
+  }
+
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .nav-item {
+    padding: 0px 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
