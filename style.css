@@ -116,3 +116,24 @@ html {
     max-height: 15em;
   }
 }
+@media only screen and (max-width: 378px) {
+  .navbar-brand {
+    font-size: 18px !important;
+  }
+
+  @media only screen and (max-width: 350px) {
+    .navbar-brand {
+      font-size: 16px !important;
+    }
+  }
+  @media only screen and (max-width: 322px) {
+    .navbar-brand {
+      font-size: 14px !important;
+    }
+  }
+  @media only screen and (max-width: 295px) {
+    .navbar-brand {
+      font-size: 12px !important;
+    }
+  }
+}
