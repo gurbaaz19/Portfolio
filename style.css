@@ -50,6 +50,11 @@ html {
   border-top-right-radius: 0;
   padding: 10px;
 }
+
+.photo-background {
+  padding: 10px 0 !important;
+  margin: 0;
+}
 .hbackground {
   background-color: rgb(223, 215, 215);
   border-radius: 5px;
@@ -57,6 +62,10 @@ html {
   border-bottom-right-radius: 0;
   margin-bottom: 0;
   padding: 10px;
+}
+
+.sbackground {
+  border-radius:0 !important;
 }
 
 .footer {
@@ -82,7 +91,7 @@ html {
 
 .icon {
   max-height: 8em;
-  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .social-div {
