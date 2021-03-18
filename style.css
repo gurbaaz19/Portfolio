@@ -1,5 +1,5 @@
 body {
-  background-image: url(background.jpg);
+  background-image: url(background.jfif);
 }
 .page {
   padding: 0;
@@ -65,7 +65,7 @@ html {
 }
 
 .sbackground {
-  border-radius:0 !important;
+  border-radius: 0 !important;
 }
 
 .footer {
@@ -102,6 +102,15 @@ html {
   max-height: 5em;
   padding-top: 2rem;
   padding-right: 2rem;
+}
+
+.fab {
+  color: black;
+  font-size: 48px;
+}
+
+.fab:hover {
+  font-size: 50px;
 }
 
 @media only screen and (max-width: 575px) {
