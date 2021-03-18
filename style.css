@@ -28,12 +28,19 @@ html {
   padding: 3% 15%;
 }
 
-.navbar {
-  padding-left: 15%;
-  padding-right: 15%;
-  background-color: rgb(219, 59, 59);
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(219, 59, 59);
+  }
 }
 
+@media only screen and (max-width: 992px) {
+  .navbar {
+    background-color: rgb(219, 59, 59);
+  }
+}
 .nav-item {
   padding: 0px 18px;
 }
