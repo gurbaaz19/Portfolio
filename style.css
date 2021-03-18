@@ -75,7 +75,7 @@ html {
 
 .institute:hover {
   text-decoration: underline;
-  font-size: 1.3rem ;
+  font-size: 1.3rem;
   color: black;
 }
 
@@ -108,14 +108,14 @@ html {
   .about-me-div {
     padding-right: 0;
   }
-  
+
   .my_photo_div {
     padding-left: 0;
   }
 }
 @media only screen and (max-width: 767px) {
-.my_photo_div {
-  visibility: hidden;
-  position:absolute;
-}
+  .my_photo_div {
+    visibility: hidden;
+    position: absolute;
+  }
 }
